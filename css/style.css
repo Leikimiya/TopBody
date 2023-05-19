@@ -458,6 +458,13 @@ input[type=submit] {
 	border-radius: 0 0 1.388888vw 1.388888vw;
 }
 
+
+.exercise li:not(:first-child){
+	border-top: solid;
+	border-color: var(--gray);
+
+}
+
 .exercise_section li img {
 	width: auto;
 	border-radius: 0.555555vw;
