@@ -246,19 +246,17 @@ body {
 	font-size: 24px;
 	line-height: 32px;
 }
-
-.user {
+.user button
+ {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	gap: 16px;
-}
-
-.user button {
 	border: 0;
 	background-color: var(--dark);
 	color: var(--white);
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .user_avatar {
