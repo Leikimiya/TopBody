@@ -246,8 +246,12 @@ body {
 	font-size: 24px;
 	line-height: 32px;
 }
-.user button
- {
+
+.UserButton {
+	position: relative;
+}
+
+.User {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -258,6 +262,32 @@ body {
 	font-size: 16px;
 	cursor: pointer;
 }
+
+.logout {
+	position: absolute;
+	overflow: auto;
+	z-index: 1;
+	display: none;
+	flex-direction: row;
+	align-items: center;
+	gap: 16px;
+	border: 0;
+	background-color: var(--white);
+	color: var(--dark);
+	padding: 12px;
+	border-radius: 12px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+}
+.show{
+	display: flex;
+}
+
+.logout img {
+	width: auto;
+}
+
 
 .user_avatar {
 	overflow: hidden;
@@ -426,10 +456,11 @@ input[type=submit] {
 }
 
 
-.exercise{
+.exercise {
 	width: 100%;
 }
-.exercise_section{
+
+.exercise_section {
 	margin-top: 1.111111vw;
 	display: flex;
 	flex-direction: column;
@@ -440,7 +471,7 @@ input[type=submit] {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding:1.666666vw ;
+	padding: 1.666666vw;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 500;
@@ -449,15 +480,16 @@ input[type=submit] {
 	background-color: var(--light-gray);
 }
 
-.exercise li:first-child{
-	border-radius: 1.388888vw 1.388888vw 0 0 ;
+.exercise li:first-child {
+	border-radius: 1.388888vw 1.388888vw 0 0;
 }
-.exercise li:last-child{
+
+.exercise li:last-child {
 	border-radius: 0 0 1.388888vw 1.388888vw;
 }
 
 
-.exercise li:not(:first-child){
+.exercise li:not(:first-child) {
 	border-top: 2px solid;
 	border-color: var(--gray);
 
@@ -472,14 +504,15 @@ input[type=submit] {
 	display: flex;
 	align-items: center;
 }
+
 .exercise_section li div span {
-margin-left: 16px;
+	margin-left: 16px;
 }
 
 .edit {
-	width: 2,22222222vw;
-	height: 2,22222222vw;
-	background-color:var(--white);
+	width: 2, 22222222vw;
+	height: 2, 22222222vw;
+	background-color: var(--white);
 	padding: 0.555555vw;
 	display: flex;
 	justify-content: center;
