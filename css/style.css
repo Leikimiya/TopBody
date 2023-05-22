@@ -355,7 +355,7 @@ body {
 
 }
 
-.menu_button:hover {
+.menu_button:active {
 	background-color: var(--dark);
 	color: var(--white);
 	cursor: pointer;
@@ -460,7 +460,7 @@ input[type=submit] {
 
 
 .exercise li:not(:first-child){
-	border-top: solid;
+	border-top: 2px solid;
 	border-color: var(--gray);
 
 }
@@ -468,6 +468,14 @@ input[type=submit] {
 .exercise_section li img {
 	width: auto;
 	border-radius: 0.555555vw;
+}
+
+.exercise_section li div {
+	display: flex;
+	align-items: center;
+}
+.exercise_section li div span {
+margin-left: 16px;
 }
 
 .edit {
