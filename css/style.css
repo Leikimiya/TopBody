@@ -282,6 +282,7 @@ body {
 }
 
 .show {
+	margin: 0.5555555vw;
 	display: flex;
 }
 
@@ -587,6 +588,7 @@ input[type=submit] {
 .exercise_create-img-add {
 	display: flex;
 	flex-direction: row;
+	gap: 1.94444vw;
 }
 
 .download_cover {
@@ -594,7 +596,9 @@ input[type=submit] {
 	background: rgba(88, 155, 255, 0.08);
 	border: 1px dashed var(--blue);
 	border-radius: 20px;
+	cursor: pointer;
 }
+
 
 .download_cover img {
 	margin: 0 auto;
@@ -608,4 +612,30 @@ input[type=submit] {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
+}
+
+.load_cover {
+	width: 11.11111vw;
+	border-radius: 20px;
+}
+
+.load_cover {
+	position: relative;
+	overflow: hidden;
+}
+
+.delete_image {
+	position: absolute;
+	left: 74.69%;
+	right: 5.31%;
+	top: 5%;
+	bottom: 75%;
+	background-color: var(--white);
+	border: none;
+	border-radius: 12px;
+
+}
+
+.delete_image img{
+	height: 16px;
 }
