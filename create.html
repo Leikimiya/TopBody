@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Создать упражнение</title>
 </head>
+
 <body>
     <header>
         <div class="header bg-black">
@@ -15,14 +17,14 @@
             </div>
             <div class="UserButton">
                 <button onclick="Logout()" class="User">
-                <img class="user_avatar" src="/img/Rectangle 135.png" alt="User Avatar">
-                  <span>UserName</span>
-                <img class="menu_icon" src="/img/Icon.svg" alt="Menu Icons">
-            </button>
-            <button class="logout" id="logout"> 
-                <img src="/img/logout-01.svg" alt="logout icon">
-                <span>Выход</span>
-            </button>
+                    <img class="user_avatar" src="/img/Rectangle 135.png" alt="User Avatar">
+                    <span>UserName</span>
+                    <img class="menu_icon" src="/img/Icon.svg" alt="Menu Icons">
+                </button>
+                <button class="logout" id="logout">
+                    <img src="/img/logout-01.svg" alt="logout icon">
+                    <span>Выход</span>
+                </button>
             </div>
         </div>
     </header>
@@ -30,20 +32,40 @@
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li><a href="#">Главная</a></li>
-                <li aria-current="page"><a href="#">Упражнения</a></li>
+                <li><a href="/index.html">Упражнения</a></li>
                 <li aria-current="page">Создать упражнение</li>
             </ul>
         </div>
-            <div class="container exercise_create">
-                <div><h2></h2></div>
-                <div></div>
-                <div><button></button> <button></button></div>
-            </div>
 
+    </div>
+    <div class="container">
+        <div class="exercise_create">
+            <div class="exercise_create-h">
+                <h2>Создать упражнение</h2>
+            </div>
+            <div class="exercise_create-add">
+                <div class="exercise_create-name-edit">
+                    <label class="text-field__label" for="name">Название упражнения</label>
+                    <input class="text-field__input" type="name" id="exercise_name" name="exercise_name" value="Введите название">
+                </div>
+                <div class="exercise_create-img-add">
+                    <button class="download_cover"><img src="/img/upload-02.svg" alt="upload_icon">
+                    <span>Загрузить<br>обложку</span></button>
+                    <div class="load_cover" ><img src="" alt=""></div>
+                </div>
+            </div>
+            <div class="exercise_create-btn">
+                <button class="cancellation"><img src="" alt=""><span></span></button>
+                <button class="save"><img src="" alt=""><span></span></button>
+            </div>
+        </div>
+
+    </div>
 
 
 
 
     <script src="/js/script.js"></script>
 </body>
+
 </html>
