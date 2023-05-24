@@ -385,14 +385,13 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
-
+	cursor: pointer;
 
 }
 
 .menu_button:active {
 	background-color: var(--dark);
 	color: var(--white);
-	cursor: pointer;
 }
 
 .menu_icon {
@@ -424,8 +423,10 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 20px
+	line-height: 20px;
+	cursor: pointer;
 }
+
 
 .exercise_list {
 	margin-top: 24px;
@@ -524,7 +525,9 @@ input[type=submit] {
 	justify-content: center;
 	align-items: center;
 	border-radius: 12px;
+	cursor: pointer;
 }
+
 
 .edit img {
 	width: auto;
@@ -633,9 +636,47 @@ input[type=submit] {
 	background-color: var(--white);
 	border: none;
 	border-radius: 12px;
-
+	cursor: pointer;
 }
 
-.delete_image img{
-	height: 16px;
+.delete_image img {
+	height: 1.111111111111vw;
+}
+
+.exercise_create-btn {
+	height: 4.722222222vw;
+	border-top: 1px solid var(--gray);
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	gap: 12px;
+}
+.cancellation {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 6px;
+	
+	width: 109px;
+	height: 48px;
+	
+	background: rgba(88, 155, 255, 0.12);
+	border-radius: 12px;
+}
+.save {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 6px;
+	
+	width: 133px;
+	height: 48px;
+	
+	
+	background: #589BFF;
+	border-radius: 12px;
 }
