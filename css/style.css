@@ -643,6 +643,18 @@ input[type=submit] {
 	height: 1.111111111111vw;
 }
 
+#delet_icon_2 {
+	display: none;
+}
+
+.delete_image:hover #delet_icon_1 {
+	display: none;
+}
+
+.delete_image:hover #delet_icon_2 {
+	display: flex;
+}
+
 .exercise_create-btn {
 	height: 4.722222222vw;
 	border-top: 1px solid var(--gray);
@@ -651,32 +663,43 @@ input[type=submit] {
 	align-items: end;
 	gap: 12px;
 }
+
 .cancellation {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	padding: 12px 24px;
-	gap: 6px;
-	
-	width: 109px;
-	height: 48px;
-	
-	background: rgba(88, 155, 255, 0.12);
+	width: 7.569444vw;
+	height: 3.3333333vw;
+	border: none;
 	border-radius: 12px;
+	background: rgba(88, 155, 255, 0.08);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--blue);
+	cursor: pointer;
 }
+
 .save {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	padding: 12px 24px;
-	gap: 6px;
-	
-	width: 133px;
-	height: 48px;
-	
-	
-	background: #589BFF;
+	width: 9.23611vw;
+	height: 3.3333333vw;
+	border: none;
 	border-radius: 12px;
+	background: var(--blue);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--white);
+	cursor: pointer;
 }
