@@ -637,10 +637,15 @@ input[type=submit] {
 	border: none;
 	border-radius: 12px;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .delete_image img {
 	height: 1.111111111111vw;
+	width: 1.111111111111vw;
+
 }
 
 #delet_icon_2 {
@@ -703,3 +708,58 @@ input[type=submit] {
 	color: var(--white);
 	cursor: pointer;
 }
+
+/*list_traing*/
+
+.exercise_add h1 {
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.breadcrumb__training {
+	width:57.63888vw;
+}
+
+.breadcrumb__training_list {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+	list-style: none;
+}
+
+.breadcrumb__training_list li {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--dark);
+}
+
+[aria-current]:not([aria-current="false"]) {
+	border-bottom: 1px solid #DCDEE3;
+  }
+
+.training__list {}
+
+.training_list_programm {}
+
+.cover_programm {}
+
+.training_list {}
+
+.type_of_training {}
+
+.training {}
+
+.training_icon {}
+
+.taraing_name {}
+
+.training_time {}
+
