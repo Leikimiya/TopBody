@@ -721,7 +721,7 @@ input[type=submit] {
 }
 
 .breadcrumb__training {
-	width:57.63888vw;
+	width: 57.63888vw;
 }
 
 .breadcrumb__training_list {
@@ -744,7 +744,7 @@ input[type=submit] {
 
 [aria-current]:not([aria-current="false"]) {
 	border-bottom: 1px solid #DCDEE3;
-  }
+}
 
 .training__list {
 	margin-top: 24px;
@@ -758,31 +758,82 @@ input[type=submit] {
 	gap: 24px;
 	border-radius: 20px;
 	background-color: var(--light-gray);
-	
+
 }
 
 .cover_programm {
-	height:9.444444vw;
-	width:9.444444vw; ;
+	height: 9.444444vw;
+	width: 9.444444vw;
+	;
 	background-color: var(--pink);
 	border-radius: 20px;
 	overflow: hidden;
 }
 
 .training_list {
-	width:44.30555vw ;
+	width: 44.30555vw;
 }
 
 .type_of_training {
-display: flex;
-justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Unbounded';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
 }
 
-.training {}
+.training {
+	display: flex;
+	gap: 16px;
+	padding: 12px 0;
+}
 
-.training_icon {}
+.training:not(:nth-child(2)) {
+	border-top: 2px solid;
+	border-color: var(--gray);
 
-.taraing_name {}
+}
 
-.training_time {}
 
+.training_icon {
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.training_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.taraing_name {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--dark);
+}
+
+.training_sets {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+}
+
+.training_sets img {
+	height: 1.25vw;
+	width: 1.25vw;
+}
+
+.training_sets span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: var(--dark-gray);
+}
