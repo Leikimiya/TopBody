@@ -524,6 +524,7 @@ input[type=submit] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: none;
 	border-radius: 12px;
 	cursor: pointer;
 }
@@ -745,15 +746,37 @@ input[type=submit] {
 	border-bottom: 1px solid #DCDEE3;
   }
 
-.training__list {}
+.training__list {
+	margin-top: 24px;
+}
 
-.training_list_programm {}
+.training_list_programm {
+	display: flex;
+	justify-content: flex-start;
+	padding: 16px;
+	width: 57.63888vw;
+	gap: 24px;
+	border-radius: 20px;
+	background-color: var(--light-gray);
+	
+}
 
-.cover_programm {}
+.cover_programm {
+	height:9.444444vw;
+	width:9.444444vw; ;
+	background-color: var(--pink);
+	border-radius: 20px;
+	overflow: hidden;
+}
 
-.training_list {}
+.training_list {
+	width:44.30555vw ;
+}
 
-.type_of_training {}
+.type_of_training {
+display: flex;
+justify-content: space-between;
+}
 
 .training {}
 
