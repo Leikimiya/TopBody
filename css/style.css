@@ -226,7 +226,7 @@ input {
 /* переподключить стили? начинаем хедер*/
 
 body {
-	background-color: var(--gray);
+	background-color: var(--light-gray);
 }
 
 .header {
@@ -520,7 +520,7 @@ input[type=submit] {
 	width: 2.22222222vw;
 	height: 2.22222222vw;
 	background-color: var(--white);
-	 padding: 0.555555vw;
+	padding: 0.555555vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -536,7 +536,7 @@ input[type=submit] {
 }
 
 
- #edit_active_icon {
+#edit_active_icon {
 	display: none;
 }
 
@@ -546,7 +546,7 @@ input[type=submit] {
 
 .edit:hover #edit_active_icon {
 	display: flex;
-} 
+}
 
 
 
@@ -576,7 +576,7 @@ input[type=submit] {
 .exercise_create-name-edit {
 	width: 41.66666vw;
 	padding: 2.2222vw;
-	background-color: var(--gray);
+	background-color: var(--light-gray);
 	display: flex;
 	flex-direction: column;
 	border-radius: 20px;
@@ -851,4 +851,55 @@ input[type=submit] {
 	font-size: 12px;
 	line-height: 18px;
 	color: var(--dark-gray);
+}
+
+/*Создать программу тренировок*/
+.create_traning_programm {
+	background-color: var(--light-gray);
+	border-radius: 20px;
+	padding: 24px 32px;
+}
+
+.training_add {
+	display: flex;
+	gap: 16px;
+	padding: 12px 0;
+}
+
+
+.training_add:not(:nth-child(1)) {
+	border-top: 1px solid;
+	border-color: var(--gray);
+
+}
+
+.options_exercise {
+	border: none;
+	background-color: inherit;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.add_button_exerciss {
+	margin-top: 16px;
+}
+
+.primary_button {
+	width:211px;
+	height: 36px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--blue);
+	border: none;
+	border-radius: 12px;
+	background-color: rgba(88, 155, 255, 0.12);
+	cursor: pointer;
 }

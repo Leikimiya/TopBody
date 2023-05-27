@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Создать программу тренировок</title>
 </head>
+
 <body>
     <header>
         <div class="header bg-black">
@@ -30,10 +32,81 @@
         <div class="breadcrumb">
             <ul class="breadcrumb__list">
                 <li><a href="/index.html">Главная</a></li>
-                <li><a href="/create_training.html">Программы тренеровок</a></li>
+                <li><a href="/training_list.html">Программы тренеровок</a></li>
                 <li aria-current="page">Создать программу тренировок</li>
             </ul>
         </div>
         <script src="/js/script.js"></script>
+    </div>
+    <div class="container">
+        <div class="exercise_create">
+            <div class="exercise_create-h">
+                <h2>Создать программу тренировок</h2>
+            </div>
+            <div class="exercise_create-add">
+                <div class="exercise_create-name-edit">
+                    <label class="text-field__label" for="name">Название программы тренировок</label>
+                    <input class="text-field__input" type="text" id="exercise_name" name="exercise_name"
+                        placeholder="Введите название">
+                </div>
+                <div class="exercise_create-img-add">
+                    <button class="download_cover"><img src="/img/upload-02.svg" alt="upload_icon">
+                        <span>Загрузить<br>обложку</span></button>
+                </div>
+            </div>
+            <section class="create_traning_programm">
+                <div class="training_add">
+                    <div class="training_icon">
+                        <img src="/img/Screenshot_3 1.png" alt="training icon">
+                    </div>
+                    <div class="training_info">
+                        <div class="taraing_name">
+                            <h4>Отведение бедра в сторону в фитнес резинке</h4>
+                        </div>
+                        <div class="training_sets"><button class="options_exercise">Задать длительность</button></div>
+                    </div>
+                </div>
+                <div class="training_add">
+                    <div class="training_icon">
+                        <img src="/img/Screenshot_3 1.png" alt="training icon">
+                    </div>
+                    <div class="training_info">
+                        <div class="taraing_name">
+                            <h4>Отведение бедра в сторону в фитнес резинке</h4>
+                        </div>
+                        <div class="training_sets"><img src="/img/Barbell.svg" alt="Barbell icon"> <span>25</span>
+                            <button class="options_exercise">Изменить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="training_add">
+                    <div class="training_icon">
+                        <img src="/img/Screenshot_3 1.png" alt="training icon">
+                    </div>
+                    <div class="training_info">
+                        <div class="taraing_name">
+                            <h4>Отведение бедра в сторону в фитнес резинке</h4>
+                        </div>
+                        <div class="training_sets"><img src="/img/Barbell.svg" alt="Barbell icon"> <span>25</span>
+                            <button class="options_exercise">Изменить</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="add_button_exerciss">
+                <button class="primary_button">&#10010; Добавить упражнение</button>
+            </div>
+
+
+
+            <div class="exercise_create-btn">
+                <button class="cancellation">Отмена</button>
+                <button class="save">Сохранить</button>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
