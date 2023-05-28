@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Пользователи</title>
+</head>
+
+<body>
+    <header>
+        <div class="header bg-black">
+            <div class="header__logo">
+                <span class=" ">TopBody</span>
+            </div>
+            <div class="UserButton">
+                <button onclick="Logout()" class="User">
+                    <img class="user_avatar" src="/img/Rectangle 135.png" alt="User Avatar">
+                    <span>UserName</span>
+                    <img class="menu_icon" src="/img/Icon.svg" alt="Menu Icons">
+                </button>
+                <button class="logout" id="logout">
+                    <img src="/img/logout-01.svg" alt="logout icon">
+                    <span>Выход</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li><a href="#">Главная</a></li>
+                <li aria-current="page">Пользователи</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container exercise__section">
+        <div class="menu">
+            <button class="menu_button" onclick="document.location='/index.html'"><img class="menu_icon"
+                    src="/img/Frame 8702.svg" alt="exercises icon">
+                Упражнения</button>
+            <button class="menu_button" onclick="document.location='/training_list.html'"><img class="menu_icon"
+                    src="/img/Person.svg" alt="Person icon">Программы
+                тренировок</button>
+            <button class="menu_button" onclick="document.location='/users.html'"><img class="menu_icon"
+                    src="/img/people.svg" alt="people icon">Пользователи</button>
+        </div>
+        <div class="exercise__board users__board">
+            <div class="exercise_add">
+                <h1>Пользователи</h1>
+                <button class="add_buttton" onclick="document.location='/create.html'"> <img src="/img/plus.svg"
+                        alt="plus icon">Создать</button>
+            </div>
+            <div class="breadcrumb__training">
+                <ul class="breadcrumb__training_list">
+                    <li aria-current="page">Спортсмены</li>
+                    <li><a href="#">Администраторы</a></li>
+                </ul>
+            </div>
+            <section class="exercise_list">
+                <div class="name_search">
+                    <input type="search" placeholder="Поиск по имени">
+                    <input type="submit" value="">
+                </div>
+            </section>
+            <div class="users_list">
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="user__info">
+                        <div class="avatar"><img src="/img/user_avatar_desing.png" alt="avatar"></div>
+                        <div class="personal_inf">
+                            <div class="user_name">
+                                <spancl>Власова Виктория Анатольевна</spancl>
+                            </div>
+                            <div class="user_e-mail">
+                                <img src="/img/email.svg" alt="email icon">
+                                <a href="mailto:victoria.vlasova@gmail.com">victoria.vlasova@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__options">
+                        <div class="add_button_users">
+                            <button class="primary_button-user">&#10010; Создать
+                                персональную тренировку</button>
+                        </div>
+                        <button class="edit">
+                            <img id="edit_icon" src="/img/edit.svg" alt="edit icon">
+                            <img id="edit_active_icon" src="/img/edit_active.svg" alt="edit active icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
