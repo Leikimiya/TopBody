@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Создать пользователя</title>
+</head>
+
+<body>
+    <header>
+        <div class="header bg-black">
+            <div class="header__logo">
+                <span class=" ">TopBody</span>
+            </div>
+            <div class="UserButton">
+                <button onclick="Logout()" class="User">
+                    <img class="user_avatar" src="/img/Rectangle 135.png" alt="User Avatar">
+                    <span>UserName</span>
+                    <img class="menu_icon" src="/img/Icon.svg" alt="Menu Icons">
+                </button>
+                <button class="logout" id="logout">
+                    <img src="/img/logout-01.svg" alt="logout icon">
+                    <span>Выход</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="/index.html">Упражнения</a></li>
+                <li aria-current="page">Создать упражнение</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="exercise_create">
+            <div class="exercise_create-h">
+                <h2>Создать упражнение</h2>
+            </div>
+            <div class="create__user-block">
+                <div class="user_information">
+
+                    <div class="exercise_create-name-edit">
+                        <label class="text-field__label" for="name">Роль</label>
+                        <div class="radio-form">
+                            <div class="radio-form-1">
+                                <input class="radio__input" id="radio-1" type="radio" name="radio" value="1" checked>
+                                <label class="radio__label" for="radio-1">Спортсмен</label>
+                            </div>
+                            <div class="radio-form-1">
+                                <input class="radio__input" id="radio-2" type="radio" name="radio" value="2">
+                                <label class="radio__label" for="radio-2">Администратор</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exercise_create-name-edit">
+                        <label class="text-field__label" for="name">Имя</label>
+                        <input class="text-field__input" type="text" id="user_name" name="user_name">
+                    </div>
+                    <div class="exercise_create-name-edit">
+                        <label class="text-field__label" for="name">Фамилия</label>
+                        <input class="text-field__input" type="text" id="user_surname" name="user_surname">
+                    </div>
+                    <div class="exercise_create-name-edit">
+                        <label class="text-field__label" for="name">E-mail</label>
+                        <input class="text-field__input" type="text" id="user_surname" name="user_surname">
+                    </div>
+                </div>
+                <div class="add_user-avatar">
+                    <button class="download_avatar"><img src="/img/camera-01.svg" alt="upload_icon">
+                        <span>Загрузить<br>фото</span></button>
+                </div>
+            </div>
+            <div class="exercise_create-btn">
+                <button class="cancellation">Отмена</button>
+                <button class="save">Сохранить</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
