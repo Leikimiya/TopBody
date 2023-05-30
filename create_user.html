@@ -41,7 +41,7 @@
     <div class="container">
         <div class="exercise_create">
             <div class="exercise_create-h">
-                <h2>Создать упражнение</h2>
+                <h2>Создать пользователя</h2>
             </div>
             <div class="create__user-block">
                 <div class="user_information">
@@ -73,10 +73,15 @@
                         <input class="text-field__input" type="text" id="user_surname" name="user_surname">
                     </div>
                 </div>
-                <div class="add_user-avatar">
-                    <button class="download_avatar"><img src="/img/camera-01.svg" alt="upload_icon">
-                        <span>Загрузить<br>фото</span></button>
-                </div>
+                <!-- <div class="add_user-avatar"> -->
+                    <label class="download_avatar">
+                        <input id="download_user-cover" type="file" accept="image.png">
+                        <img src="/img/camera-01.svg" alt="upload_icon">
+                        <span>Загрузить<br>фото</span>
+                      </label>
+                    <!-- <button class="download_avatar"><img src="/img/camera-01.svg" alt="upload_icon">
+                        <span>Загрузить<br>фото</span></button> -->
+                <!-- </div> -->
             </div>
             <div class="exercise_create-btn">
                 <button class="cancellation">Отмена</button>

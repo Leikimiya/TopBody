@@ -610,12 +610,28 @@ input[type=submit] {
 	gap: 1.94444vw;
 }
 
+
+
 .download_cover {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 11.11111vw;
 	background: rgba(88, 155, 255, 0.08);
 	border: 1px dashed var(--blue);
 	border-radius: 20px;
 	cursor: pointer;
+}
+
+#download_exercise-cover{
+	position: absolute;
+	z-index: -10;
+}
+#download_traning-cover{
+	position: absolute;
+	z-index: -10;
 }
 
 
@@ -632,6 +648,7 @@ input[type=submit] {
 	font-size: 14px;
 	line-height: 20px;
 }
+
 
 .load_cover {
 	width: 11.11111vw;
@@ -1097,10 +1114,19 @@ input[type=submit] {
 	width: 13.888888vw;
 	height: 13.888888vw;
 	overflow: hidden;
-
 }
+
+#download_user-cover{
+	position: absolute;
+	z-index: -10;
+}
+
 
 .download_avatar img {
 	margin: 0 auto;
 	width: 2.22222vw;
+}
+
+.download_avatar span {
+	text-align:  center;
 }
