@@ -916,10 +916,10 @@ input[type=submit] {
 	padding: 24px 32px;
 }
 
-.training_add-section{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.training_add-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .training_add {
@@ -949,6 +949,7 @@ align-items: center;
 
 .add_button_exerciss {
 	margin-top: 16px;
+	margin-bottom: 32px;
 	width: 211px;
 	height: 36px;
 }
@@ -1177,24 +1178,25 @@ align-items: center;
 }
 
 /*modal window*/
+
+
 .modal_add-exercise-form {
 	position: fixed;
+	display: none;
 	z-index: 1000;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	overflow: auto;
 	background-color: rgba(31, 40, 48, 0.5);
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .modal_content {
+	height: 62%;
+	margin: 15% auto;
 	background-color: var(--white);
 	width: 55.5555555vw;
-	z-index: 99999;
+	z-index: 9999;
 	border-radius: 1.38888888vw;
 	padding: 1.66666vw 2.77777vw;
 	display: flex;
@@ -1238,9 +1240,24 @@ align-items: center;
 }
 
 .modal_exercise {
+	height: 25.555555vw;
 	border-radius: 1.38888vw;
 	padding: 1.11111vw 0.83333vw 1.66666vw 1.66666vw;
+	overflow-y: auto;
 }
+
+::-webkit-scrollbar {
+	width: 0.27777vw;
+	/*ширина для вертикального скролла */
+	background-color: var(--light-gray);
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+	background-color: var(--gray);
+	border-radius: 6.94444vw;
+}
+
 
 .exercise_counter {
 	display: flex;
@@ -1282,12 +1299,12 @@ align-items: center;
 	border-radius: 0.555555vw;
 }
 
-.delete-btn{
+.delete-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border: none;
-	border-radius:0.83333vw ;
+	border-radius: 0.83333vw;
 	cursor: pointer;
 	width: 2.22222vw;
 	height: 2.22222vw;
