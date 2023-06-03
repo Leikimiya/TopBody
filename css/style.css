@@ -143,6 +143,12 @@ a {
 	line-height: 1.43em;
 }
 
+.text-12s {
+	font-family: 'Inter', sans-serif;
+	font-size: calc(12 / 1440 * 100vw);
+	font-weight: 600;
+	line-height: 1.5em;
+}
 
 .text-16b {
 	font-family: 'Unbounded', cursive;
@@ -151,58 +157,58 @@ a {
 	line-height: 1.5em;
 }
 
-/* .text-32b {
+.text-32b {
 	font-family: 'Unbounded', cursive;
-	font-size: calc(32 / 390 * 100vw);
+	font-size: calc(32 / 1440 * 100vw);
 	font-weight: 700;
 	line-height: 1.25em;
 }
 
 .text-32s {
 	font-family: 'Unbounded', cursive;
-	font-size: calc(32 / 390 * 100vw);
+	font-size: calc(32 / 1440 * 100vw);
 	font-weight: 600;
 	line-height: 1.25em;
 }
 
 .text-20b {
 	font-family: 'Unbounded', cursive;
-	font-size: calc(20 / 390 * 100vw);
+	font-size: calc(20 / 1440 * 100vw);
 	font-weight: 700;
 	line-height: 1.4em;
 }
 
 .text-16b {
 	font-family: 'Unbounded', cursive;
-	font-size: calc(16 / 390 * 100vw);
+	font-size: calc(16 /1440 * 100vw);
 	font-weight: 700;
 	line-height: 1.5em;
 }
 
 .text-16s {
 	font-family: 'Inter', sans-serif;
-	font-size: calc(16 / 390 * 100vw);
+	font-size: calc(16 / 1440 * 100vw);
 	font-weight: 600;
 	line-height: 1.5em;
 }
 
 .text-16s-u {
 	font-family: 'Unbounded', cursive;
-	font-size: calc(16 / 390 * 100vw);
+	font-size: calc(16 / 1440 * 100vw);
 	font-weight: 600;
 	line-height: 1.5em;
 }
 
 .text-16m {
 	font-family: 'Inter', sans-serif;
-	font-size: calc(16 / 390 * 100vw);
+	font-size: calc(16 / 1440 * 100vw);
 	font-weight: 500;
 	line-height: 1.5em;
 }
 
 .text-14b {
 	font-family: 'Inter', sans-serif;
-	font-size: calc(14 / 390 * 100vw);
+	font-size: calc(14 / 1440 * 100vw);
 	font-weight: 700;
 	line-height: 1.43em;
 }
@@ -210,23 +216,19 @@ a {
 .text-14m {
 	font-family: 'Inter';
 	font-weight: 500;
-	font-size: calc(14 / 390 * 100vw);
+	font-size: calc(14 / 1440 * 100vw);
 	line-height: 1.43em;
 }
 
 .text-14s {
 	font-family: 'Inter', sans-serif;
-	font-size: calc(14 / 390 * 100vw);
+	font-size: calc(14 / 1440 * 100vw);
 	font-weight: 600;
 	line-height: 1.43em;
 }
 
-.text-12s {
-	font-family: 'Inter', sans-serif;
-	font-size: calc(12 / 390 * 100vw);
-	font-weight: 600;
-	line-height: 1.5em;
-} */
+
+
 
 .footer__icon-container svg path {
 	stroke: var(--dark-gray);
@@ -270,12 +272,6 @@ body {
 	gap: 12.0833vw;
 }
 
-.header__logo {
-	color: var(--white);
-	font-size: 24px;
-	line-height: 32px;
-}
-
 .UserButton {
 	position: relative;
 }
@@ -286,9 +282,7 @@ body {
 	align-items: center;
 	gap: 16px;
 	border: 0;
-	background-color: var(--dark);
-	color: var(--white);
-	font-size: 16px;
+	font-size: calc(16 / 1440 * 100vw);
 	cursor: pointer;
 }
 
@@ -301,11 +295,9 @@ body {
 	align-items: center;
 	gap: 16px;
 	border: 0;
-	background-color: var(--white);
-	color: var(--dark);
 	padding: 12px;
 	border-radius: 12px;
-	font-size: 16px;
+	font-size: calc(16 / 1440 * 100vw);
 	cursor: pointer;
 	width: 100%;
 }
@@ -327,7 +319,7 @@ body {
 }
 
 .menu_icon {
-	height: 20px;
+	height: 1.38888vw;
 	width: 20px;
 }
 
@@ -351,12 +343,6 @@ body {
 
 .breadcrumb__list li {
 	text-decoration: none;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	color: var(--dark-gray);
 }
 
 .breadcrumb__list li a {
@@ -364,7 +350,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: calc(16 / 1440 * 100vw);
 	line-height: 24px;
 	color: var(--dark);
 }
@@ -412,7 +398,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: calc(16 / 1440 * 100vw);
 	line-height: 24px;
 	cursor: pointer;
 
@@ -451,7 +437,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: calc(14 / 1440 * 100vw);
 	line-height: 20px;
 	cursor: pointer;
 }
@@ -476,7 +462,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: calc(12 / 1440 * 100vw);
 	line-height: 18px;
 }
 
@@ -1327,4 +1313,89 @@ input[type=submit] {
 
 .delete-btn:hover #delet_exercise_2 {
 	display: flex;
+}
+
+
+.modal_add-exercise-form-2 {
+	position: fixed;
+	display: none;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(31, 40, 48, 0.5);
+}
+
+.modal_content-2 {
+	height: 62%;
+	margin: 15% auto;
+	z-index: 9999;
+	background-color: var(--white);
+	width: 55.5555555vw;
+	border-radius: 1.38888888vw;
+	padding: 1.66666vw 2.77777vw;
+	display: flex;
+	flex-direction: column;
+	gap: 1.38888888vw;
+}
+
+
+.exercise-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5.83333333vw;
+	padding: 1.11111vw 1.66666vw;
+	border-radius: 1.38888vw;
+
+
+}
+
+
+.exercise-content div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1.1111111vw;
+}
+
+.exercise-content img {
+	width: 3.472222vw;
+	border-radius: 0.555555vw;
+}
+
+
+.exercise_create-name-edit-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 1.11111vw;
+}
+
+.time-sets {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 0.55555vw;
+}
+
+.input_time-sets {
+	align-items: center;
+	border: 1px solid var(--gray);
+	border-radius: 0.55555vw;
+	width: 6.11111vw;
+	height: 1.52777vw;
+	padding: 0.55555vw 1.11111vw;
+}
+
+.exercise_create-btn-2 {
+	height: 4.722222222vw;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	gap: 12px;
+}
+
+.invisable{
+	visibility: collapse;
 }

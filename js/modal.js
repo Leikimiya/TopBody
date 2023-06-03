@@ -8,6 +8,7 @@ for (let i = 0; i < add_btns.length; i++) {
         let close = modal.querySelector(".modal_close-btn");
         close.addEventListener('click', function () {
             modal.style.display = "none";
+
         })
     })
 }
@@ -20,3 +21,8 @@ window.onclick = function (event) {
       }
     }
   }
+
+
+
+
+
