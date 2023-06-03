@@ -519,7 +519,7 @@ input[type=submit] {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 500;
-	font-size: (14 / 1440 * 100vw);
+	font-size: calc(14 / 1440 * 100vw);
 	line-height: 20px;
 	background-color: var(--light-gray);
 }
@@ -540,7 +540,10 @@ input[type=submit] {
 }
 
 .exercise_section li img {
-	width: auto;
+	max-width: 3.61111vw;
+	max-height: 3.61111vw;
+	object-fit: cover;
+	/* width: auto; */
 	border-radius: 0.555555vw;
 }
 
@@ -837,7 +840,7 @@ input[type=submit] {
 	font-family: 'Unbounded';
 	font-style: normal;
 	font-weight: 700;
-	font-size: (16 / 1440 * 100vw);
+	font-size: calc(16 / 1440 * 100vw);
 	line-height: 24px;
 }
 
@@ -855,6 +858,9 @@ input[type=submit] {
 
 
 .training_icon {
+	max-width: 3.61111vw;
+	max-height: 3.61111vw;
+	object-fit: cover;
 	overflow: hidden;
 	border-radius: 8px;
 }

@@ -3,3 +3,9 @@ function Logout() {
 };
 
 
+window.onclick = function (event) {
+
+    if (document.getElementById("logout").classList.contains("show")) {
+        alert ('dsdsd')
+    }
+};    
