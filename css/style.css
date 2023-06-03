@@ -540,10 +540,9 @@ input[type=submit] {
 }
 
 .exercise_section li img {
-	max-width: 3.61111vw;
-	max-height: 3.61111vw;
+	width: 3.61111vw;
+	height: 3.61111vw;
 	object-fit: cover;
-	/* width: auto; */
 	border-radius: 0.555555vw;
 }
 
@@ -825,7 +824,7 @@ input[type=submit] {
 .cover_programm {
 	height: 9.444444vw;
 	width: 9.444444vw;
-
+	object-fit: cover;
 	border-radius: 20px;
 	overflow: hidden;
 }
@@ -858,8 +857,8 @@ input[type=submit] {
 
 
 .training_icon {
-	max-width: 3.61111vw;
-	max-height: 3.61111vw;
+	width: 3.61111vw;
+	height: 3.61111vw;
 	object-fit: cover;
 	overflow: hidden;
 	border-radius: 8px;
